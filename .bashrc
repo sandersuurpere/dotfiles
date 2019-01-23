@@ -1,15 +1,17 @@
 # aliases:
-alias matlab="/usr/local/MATLAB/R2017a/bin/matlab & disown"
+alias matlab="/usr/local/MATLAB/R2017a/bin/matlab"
 
 # add vi-like keys
 set -o vi
 
+#export CADMESH_INCLUDE_DIRS=/home/sander/cadmesh/cadmesh-install/include
+
 # Geant4 and ROOT variables and scripts
 export G4WORKDIR=~/g4work
 export G4FORCENUMBEROFTHREADS=1
-source /home/sander/g4/geant4.10.04.p02-install/bin/geant4.sh
-source /home/sander/g4/geant4.10.04.p02-install/share/Geant4-10.4.2/geant4make/geant4make.sh
-source /home/sander/root_v6.14.00.source/root-build/bin/thisroot.sh
+source ~/g4/geant4.10.04.p02-install/bin/geant4.sh
+source ~/g4/geant4.10.04.p02-install/share/Geant4-10.4.2/geant4make/geant4make.sh
+source ~/root_v6.14.00.source/root-build/bin/thisroot.sh
 
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
