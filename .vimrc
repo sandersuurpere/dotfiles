@@ -1,10 +1,13 @@
 colorscheme desert
 set number relativenumber
 set autoindent
-set clipboard=unnamedplus
+"set clipboard=unnamedplus
 
-"vmap <leader>xyy :!xclip -f -sel clip<CR>
-"map <leader>xpp mz:-1r !xclip -o -sel clip<CR>`z
+"noremap <Leader>y "*y
+"noremap <Leader>p "*p
+"noremap <Leader>Y "+y
+"noremap <Leader>P "+p
+
 
 inoremap {      {}<Left>
 inoremap {<CR>  {<CR>}<Esc>O
